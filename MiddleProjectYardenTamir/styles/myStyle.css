@@ -1,0 +1,215 @@
+@font-face {
+    font-family: 'SuezOne-Regular';
+    src: url('../fonts/SuezOne-Regular.eot');
+    src: url('../fonts/SuezOne-Regular.ttf') format('truetype'), url('../fonts/SuezOne-Regular.eot') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Nehama';
+    src: url('../fonts/new/Nehama.eot');
+    src: url('../fonts/new/Nehama.ttf') format('truetype'), url('../fonts/new/Nehama.eot') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+    body {
+    direction: rtl;
+    padding-right: 150px;
+    padding-top: 100px;
+    color: black;
+    text-align: center;
+    font-family: Arial;
+    -webkit-mask-attachment: fixed;
+    font-family:SuezOne-Regular;
+}
+html {
+    background-image: url('../images/pink.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+#o {
+    background-image: url('../images/newpink.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+ul {
+    list-style: none;
+}
+    #container img {
+        width:290px;
+    }
+nav ul li {
+    display: block;
+    float: right;
+    color:black;
+}
+    nav ul li a {
+        display: block;
+        background-color: rgba(178, 0, 255, 0.15);
+        color: black;
+        width: 200px;
+        height: 40px;
+        padding-top: 10px;
+        text-decoration: none;
+        text-align: center;
+        margin-right: 20px;
+        border: black solid 2px;
+        border-radius: 15px 50px 30px;
+        font-size: 22px;
+    }
+
+h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    text-shadow: 1px 1px 1px white;
+    font-family: Nehama;
+    letter-spacing:2px;
+}
+p {
+    font-size: 22px;
+}
+h2 {
+    font-size: 25px;
+    font-family: SuezOne-Regular;
+}
+
+#navdiv {
+    display:inline-block;
+    position:absolute center;
+}
+nav ul li a:hover {
+    background-color: palevioletred;
+    display: inline-block;
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+nav ul li a:active {
+    background-color: deeppink;
+}
+
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: right;
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    background: rgba(178, 0, 255, 0.3);
+    display: table-cell;
+    vertical-align: middle;
+    display: grid;
+    grid-column-gap: 50px;
+    color:black;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+    filter: contrast(150%);
+    // Browser Specific -webkit-filter: contrast(150%);
+    -moz-filter: contrast(150%);
+    -o-filter: contrast(150%);
+    -ms-filter: contrast(150%);
+}
+
+    div.gallery img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+  
+
+div.desc {
+    padding: 25px;
+    text-align: center;
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+    div.gallery:hover {
+        border: 1px solid #777;
+        background-color: palevioletred;
+    }
+
+    div.gallery img {
+        width: 100%;
+        height: auto;
+    }
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+
+.responsive {
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 2px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.gallery {
+    vertical-align: middle;
+    text-align: center;
+    display: block;
+    float: right;
+}
+
+#homepage {
+    background: rgba(178, 0, 255, 0.15);
+    border: solid black 2px;
+    border-radius: 15px 50px 30px;
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 30px;
+
+}
+.music {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#bigger {
+    width:400px;
+    margin-left:50px;
+}
+.Wbackground .video {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+}
+.Wbackground {
+    border-radius: 15px 50px 30px;
+    width: 900px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 30px;
+}
+
+
+
